@@ -1,6 +1,6 @@
 
-curl -i -H 'Content-type: application/json' -H 'Authorization: key=AAAAEYIkQC8:APA91bEjxiQRwiayGB81q6T_nJbeTbr7vwyJ-Y7whv2rwWxuQWk0O-2CqojL46QMWxfmeLav3nQ9VBHHWr5vRpCzkafFrpbKLg-4rKIqQUdy8tYjelW9sOEQxfVDx9zANu3TPOnuuy6p' -XPOST https://fcm.googleapis.com/fcm/send -d '{
-  "registration_ids":["fKrDeslfdNg:APA91bF2lIiLrq8ICRjxnliaTlLf8ls5mN52D7WVHwxYIHWXyhjnuhZKI_LmtraglkGBPhIUNCP2lyKryTn-Ey4EAfuhPR9L0UOAe9TcwnCn7fQm19cdVBqu8np33GouvxjRlboUD8gn"],
+curl -i -H 'Content-type: application/json' -H 'Authorization: key=your_server_key' -XPOST https://fcm.googleapis.com/fcm/send -d '{
+  "registration_ids":["the_first_destination_token"],
   "notification": {
       "title":"Title of your notification",
       "body":"content of your notification"
